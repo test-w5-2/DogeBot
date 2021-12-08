@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "917736807522"; 
+owner = "917736807522"; 
+fakeyoi = "WH173 5P1D3R"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@917736807522"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -393,13 +393,13 @@ var hayuk0 = '[NOT VERIFIED]'
 			hayuk0 = '[√ VERIFIED]'
 			}
     //Y
-const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
-		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
-        const timeWit = moment().tz('Asia/Jayapura').format('DD/MM HH:mm:ss')
-    const time = moment.tz("Asia/Jakarta").format("DD/MM HH:mm:ss");
-    const jam = moment().tz("Asia/Jakarta").format("HH:mm:ss");
-    const wita = moment.tz("Asia/Makassar").format("HH:mm:ss");
-    const wit = moment.tz("Asia/Jayapura").format("HH:mm:ss");
+const timeWib = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+		const timeWita = moment().tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+        const timeWit = moment().tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
+    const time = moment.tz("Asia/Kolkata").format("DD/MM HH:mm:ss");
+    const jam = moment().tz("Asia/Kolkata").format("HH:mm:ss");
+    const wita = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+    const wit = moment.tz("Asia/Kolkata").format("HH:mm:ss");
     let locale = "id";
     let d = new Date();
     let gmt = new Date(0).getTime() - new Date("1 January 1970").getTime();
@@ -481,22 +481,22 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "W5-BOT (beta)",
           sellerJid: "0@s.whatsapp.net",
         },
       },
       contextInfo: { forwardingScore: 999, isForwarded: true },
       sendEphemeral: true,
     };
-const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${senderr.split('@')[0]}:${senderr.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./xeon.jpg')
+const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '917736807522@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${senderr.split('@')[0]}:${senderr.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./xeon.jpg')
         }}}
-const freply7 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '1595603042@s.whatsapp.net' } : {}) }, message: { "productMessage":{"product": {"productImage": {"mimetype":'image/jpeg',"jpegThumbnail": iye, "title": `${ucapanWaktu} ${pushname}`, "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
+const freply7 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '917736807522@s.whatsapp.net' } : {}) }, message: { "productMessage":{"product": {"productImage": {"mimetype":'image/jpeg',"jpegThumbnail": iye, "title": `${ucapanWaktu} ${pushname}`, "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
 }
  const fkontak = { 
                   key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: `0@s.whatsapp.net` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./stik/thumb.jpeg')}}}
             //FAKE STICKER
             const fsticker = {
-                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},"message": {"stickerMessage": { "url": "https://mmg.whatsapp.net/d/f/Am6FBfNf-E2f1VoGBXkPaNAy7L6Tw_HMavKrHEt48QM4.enc","fileSha256": "Yfj8SW7liSEnDakvyVlXVZQ1LJBC9idn09X7KHe8HTc=","fileEncSha256": "F854aUrzgAkBTOVULpne4oSIi6S04Jo56pjZEo+p+9U=","mediaKey": "Z3nA2asclAAwWHngNO/vJ81qxOE2/0gkEnXak+NxPV4=","mimetype": "image/webp","height": 64,"width": 64,"directPath": "/v/t62.15575-24/12097272_1193895144391295_8973688483514349023_n.enc?ccb=11-4&oh=5a9d7147627a8355569f1a641b9ebee3&oe=60C65E73","fileLength": "7186","mediaKeyTimestamp": "1622815545","isAnimated": false}}}
+                  key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917736807522@s.whatsapp.net" } : {})},"message": {"stickerMessage": { "url": "https://mmg.whatsapp.net/d/f/Am6FBfNf-E2f1VoGBXkPaNAy7L6Tw_HMavKrHEt48QM4.enc","fileSha256": "Yfj8SW7liSEnDakvyVlXVZQ1LJBC9idn09X7KHe8HTc=","fileEncSha256": "F854aUrzgAkBTOVULpne4oSIi6S04Jo56pjZEo+p+9U=","mediaKey": "Z3nA2asclAAwWHngNO/vJ81qxOE2/0gkEnXak+NxPV4=","mimetype": "image/webp","height": 64,"width": 64,"directPath": "/v/t62.15575-24/12097272_1193895144391295_8973688483514349023_n.enc?ccb=11-4&oh=5a9d7147627a8355569f1a641b9ebee3&oe=60C65E73","fileLength": "7186","mediaKeyTimestamp": "1622815545","isAnimated": false}}}
             //FAKE VN
 const ftrol = {
 	key : {
@@ -783,7 +783,7 @@ if (!itsMe && !isOwner)return
       key: {
         fromMe: false,
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {}),
+        ...(from ? { remoteJid: "917736807522@s.whatsapp.net" } : {}),
       },
       message: {
         productMessage: {
@@ -793,10 +793,10 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            description: "W5-BOT (beta)",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+            retailerId: "W5-BOT (beta)",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -806,7 +806,7 @@ if (!itsMe && !isOwner)return
  const ftok = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "917736807522@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
