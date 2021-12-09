@@ -15,7 +15,7 @@ const fetch = require("node-fetch");
 const moment = require("moment-timezone");
 blocked = [];
 const { color } = require('./lib/color')
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time2 = moment().tz("Asia/Kolkata").format("HH:mm:ss");
     if (time2 < "24:59:00") {
       var ucapanWaktu = "Good night";
     }
@@ -233,7 +233,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
         if (welcom === false) return
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
-        time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
+        time_wel = moment.tz("Asia/Kolkata").format("HH:mm");
         teks = `𝗛𝗮𝗹𝗼 ${anu_user} 𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗗𝗮𝘁𝗮𝗻𝗴 シ︎`;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
@@ -270,7 +270,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
         num = anu.participants[0];
         let w = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = w.vname || w.notify || num.split("@")[0];
-        time_wel = moment.tz("Asia/Jakarta").format("HH:mm");
+        time_wel = moment.tz("Asia/Kolkata").format("HH:mm");
         memeg = mdata.participants.length;
         out = `𝗦𝗮𝘆𝗼𝗻𝗮𝗿𝗮 ${anu_user} 👋`;
         buff = await getBuffer(
@@ -362,7 +362,7 @@ if (anu.action == 'add' && !mem.includes(client.user.jid)) {
       Object.keys(m.message)[0] === "ephemeralMessage"
         ? m.message.ephemeralMessage.message
         : m.message;
-    const jam = moment.tz("Asia/Jakarta").format("HH:mm:ss");
+    const jam = moment.tz("Asia/Kolkata").format("HH:mm:ss");
     let d = new Date();
     let locale = "id";
     let gmt = new Date(0).getTime() - new Date("1 Januari 2021").getTime();
