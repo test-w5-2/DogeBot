@@ -26,7 +26,7 @@ heroku/nodejs
 # Installation
 ## Clone Repo & Installation dependencies
 ```bash
-🦄 git clone https://github.com/DGXeon/DogeBot.git
+🦄 git clone https://github.com/for-test-by-w5/DogeBot.git
 🦄 cd DogeBot
 🦄 npm start
 ```
@@ -42,7 +42,7 @@ heroku/nodejs
 🦄 pkg install ffmpeg -y 
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/DGXeon/DogeBot
+🦄 git clone https://github.com/for-test-by-w5/DogeBot
 🦄 cd DogeBot
 🦄 ls
 🦄 rm -rf session.json
