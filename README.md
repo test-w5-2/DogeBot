@@ -1,7 +1,7 @@
 
 
 ## Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/for-test-by-w5/DogeBot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/test-w5-2/DogeBot/)
 
 # Requirements
 * [Node.js](https://nodejs.org/en/)
